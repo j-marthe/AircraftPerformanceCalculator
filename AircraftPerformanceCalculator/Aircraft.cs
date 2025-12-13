@@ -10,4 +10,5 @@ class Aircraft
     public double MTOW { get; set; } // kg
     public double CurrentWeight { get; set; } // kg
     public double FlapSetting { get; set; } // grados
+    public double WingArea { get; set; }
 }

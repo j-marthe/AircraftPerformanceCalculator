@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|solutionrelative:aircraftperformancecalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|c:\\users\\jesus\\01_proyectos\\aircraftperformancecalculator\\aircraftperformancecalculator\\aircraftperformancecalculator\\flightconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|solutionrelative:aircraftperformancecalculator\\flightconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|c:\\users\\jesus\\01_proyectos\\aircraftperformancecalculator\\aircraftperformancecalculator\\aircraftperformancecalculator\\performancecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|solutionrelative:aircraftperformancecalculator\\performancecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|c:\\users\\jesus\\01_proyectos\\aircraftperformancecalculator\\aircraftperformancecalculator\\aircraftperformancecalculator\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|solutionrelative:aircraftperformancecalculator\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|c:\\users\\jesus\\01_proyectos\\aircraftperformancecalculator\\aircraftperformancecalculator\\aircraftperformancecalculator\\vspeeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|solutionrelative:aircraftperformancecalculator\\vspeeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|c:\\users\\jesus\\01_proyectos\\aircraftperformancecalculator\\aircraftperformancecalculator\\aircraftperformancecalculator\\flightconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F045A7D-2620-4084-945D-EEF42CB6F036}|AircraftPerformanceCalculator\\AircraftPerformanceCalculator.csproj|solutionrelative:aircraftperformancecalculator\\flightconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,14 +44,14 @@
               "RelativeDocumentMoniker": "AircraftPerformanceCalculator\\Program.cs",
               "ToolTip": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\Program.cs",
               "RelativeToolTip": "AircraftPerformanceCalculator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAA0wJkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T17:21:47.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FlightConditions.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\FlightConditions.cs",
               "RelativeDocumentMoniker": "AircraftPerformanceCalculator\\FlightConditions.cs",
@@ -56,15 +64,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerformanceCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\PerformanceCalculator.cs",
+              "RelativeDocumentMoniker": "AircraftPerformanceCalculator\\PerformanceCalculator.cs",
+              "ToolTip": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\PerformanceCalculator.cs",
+              "RelativeToolTip": "AircraftPerformanceCalculator\\PerformanceCalculator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA9wAgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T10:57:52.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Aircraft.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\Aircraft.cs",
               "RelativeDocumentMoniker": "AircraftPerformanceCalculator\\Aircraft.cs",
               "ToolTip": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\Aircraft.cs",
               "RelativeToolTip": "AircraftPerformanceCalculator\\Aircraft.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T18:01:53.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VSpeeds.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\VSpeeds.cs",
+              "RelativeDocumentMoniker": "AircraftPerformanceCalculator\\VSpeeds.cs",
+              "ToolTip": "C:\\Users\\jesus\\01_Proyectos\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\AircraftPerformanceCalculator\\VSpeeds.cs",
+              "RelativeToolTip": "AircraftPerformanceCalculator\\VSpeeds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T11:32:07.525Z",
               "EditorCaption": ""
             }
           ]

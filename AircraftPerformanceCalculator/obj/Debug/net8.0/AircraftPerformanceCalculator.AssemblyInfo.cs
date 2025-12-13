@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AircraftPerformanceCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d620f48d36bd64c47ce1c23b221271762dcf121d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AircraftPerformanceCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AircraftPerformanceCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

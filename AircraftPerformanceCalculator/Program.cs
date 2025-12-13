@@ -11,6 +11,9 @@ internal class Program
 
         Aircraft aircraft = null;
         FlightConditions conditions = null;
+        VSpeeds speeds = null;
+        double takeOff = 0;
+        double takeLand = 0;
 
         while (menu != 5)
         {
@@ -41,9 +44,21 @@ internal class Program
                     aircraft = AddAvion();
                     conditions = AddCondiciones();
                     break;
+
                 case 2:
-                    Console.WriteLine("Calculos Avion");
-                    break;
+                    if(aircraft != null && conditions != null)
+                    {
+                        Console.WriteLine("Calculando performance ...");
+                        speeds = CalculateVSpeed(aircraft);
+                        takeOff = CalculateTakeOff(aircraft, conditions);
+                        takeLand = CalculateLand(aircraft, conditions);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Debe de ingresar datos primero");
+                    }
+                        break;
+
                 case 3:
                     Console.WriteLine("Mostrar resultados");
                     break;
@@ -90,6 +105,14 @@ internal class Program
         }
         aircraft.FlapSetting = flapSetting;
 
+        Console.Write("Ingrese superficie del ala (metros^2):");
+        double wingArea;
+        while (!double.TryParse(Console.ReadLine(), out wingArea))
+        {
+            Console.WriteLine("Valor inválido. Intente de nuevo:");
+        }
+        aircraft.WingArea = wingArea;
+
 
         return aircraft;
 
@@ -119,4 +142,41 @@ internal class Program
         return conditions;
 
     }
+
+    private static VSpeeds CalculateVSpeed(Aircraft plane)
+    {
+        VSpeeds speeds = new VSpeeds();
+
+        speeds = PerformanceCalculator.CalculateVSpeeds(plane);
+
+        Console.WriteLine($"V1: {speeds.V1} km/h");
+        Console.WriteLine($"VR: {speeds.VR} km/h");
+        Console.WriteLine($"V2: {speeds.V2} km/h");
+
+        return speeds;
+    }
+
+    private static double CalculateTakeOff(Aircraft plane, FlightConditions conditions)
+    {
+        double takeOff = 0;
+
+        takeOff = PerformanceCalculator.CalculateTakeoffDistance(plane, conditions);
+
+        Console.WriteLine($"Distancia de despegue: {takeOff} m");
+
+        return takeOff;
+    }
+
+    private static double CalculateLand(Aircraft plane, FlightConditions conditions)
+    {
+        double takeLand = 0;
+
+        takeLand = PerformanceCalculator.CalculateLandDistance(plane, conditions);
+
+        Console.WriteLine($"Distancia de aterrizaje: {takeLand} m");
+
+        return takeLand;
+    }
+
+
 }

@@ -12,3 +12,4 @@ C:\Users\jesus\01_Proyectos\AircraftPerformanceCalculator\AircraftPerformanceCal
 C:\Users\jesus\01_Proyectos\AircraftPerformanceCalculator\AircraftPerformanceCalculator\AircraftPerformanceCalculator\obj\Debug\net8.0\AircraftPerformanceCalculator.pdb
 C:\Users\jesus\01_Proyectos\AircraftPerformanceCalculator\AircraftPerformanceCalculator\AircraftPerformanceCalculator\obj\Debug\net8.0\AircraftPerformanceCalculator.genruntimeconfig.cache
 C:\Users\jesus\01_Proyectos\AircraftPerformanceCalculator\AircraftPerformanceCalculator\AircraftPerformanceCalculator\obj\Debug\net8.0\ref\AircraftPerformanceCalculator.dll
+C:\Users\jesus\01_Proyectos\AircraftPerformanceCalculator\AircraftPerformanceCalculator\AircraftPerformanceCalculator\obj\Debug\net8.0\AircraftPerformanceCalculator.sourcelink.json
